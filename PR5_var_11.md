@@ -167,11 +167,12 @@
 
 * `employee_name`
 * `settlement_status`
-* `difference_amount`
+* `total_expense`
+* `advance_given`
 
 **Логика:**
 
-* Рассчитать разницу: `abs(total_expense - advance_given)`.
+* Рассчитать разницу: `difference_amount = abs(total_expense - advance_given)`.
 * Создать и вернуть словарь:
 
 ```json
